@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "student-pdf-add"
+version = "0.1.0"
+description = ""
+authors = ["Elen Bačovská <elen.bacovska@gmail.com>"]
+readme = "README.md"
+packages = [{include = "student_pdf_add"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fpdf = "^1.7.2"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
